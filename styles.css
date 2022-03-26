@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #eceff4;
+}
+
+h1{
+    text-align: center;
+    -webkit-text-fill-color: blue;
+    border-color: #175dd5;
+    padding-bottom: -50%;
+    font-size: xxx-large;
+    font-weight: 800;
+    margin-top: 1px;
+    padding-top: 1px;
+    line-height: 8pt;
+}
+#number{
+    height: 35px;
+    width: 300px;
+    background-color: #f3f3f3;
+    border-style: ridge;
+    border-radius: 9px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding: 10px;
+}
+#password{
+    height: 35px;
+    width: 300px;
+    background-color: #f3f3f3;
+    border-style: ridge;
+    border-radius: 9px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding: 10px;
+}
+#submit{
+    background-color: #1c7ed6;
+    color: #FBFBFB;
+    border-style: solid;
+    border-color: #1c7ed6;
+    border-radius: 9px;
+    height: 40px;
+    width: 330px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#forget {
+    color: #339af0;
+    padding-top: 10px;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    border-color: #339af0;
+    line-height: 1px;
+    margin: 10px 0 20px;
+    font-size: 18px;
+}
+#create{
+    background-color: #1DCC39;
+    color: #FFFFFF;
+    border-color: #60DA73;
+    border-style: solid;
+    border-radius: 9px;
+    height: 35px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 25px;
+    padding-top: 6px;
+    
+}
+.line::before{
+    content: "or";
+    display: inline-block;
+    height: 1px;
+    width: 30%;
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+    background: black;
+}
+.line::after{
+    content: "or";
+    display: inline-block;
+    height: 1px;
+    width: 30%;
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+    background: black;
+    
+}
+
+.about{
+    font-size: 14px;
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+
+}
+.by{
+    font-size: 14px;
+    color: #EF0808;
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+
+}
+
+h2::before{
+    right: 0.5em;
+    margin-left: -50%;
+}
+h2::after{
+    left: 0.5em;
+    margin-right: -50%;
+}
+section{
+    background-color: white;
+    position: relative;
+    padding: 30px;
+    border-radius: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+    box-shadow: 5px 10px 10px #d8dee9;
+}
+
+
+
+
+
