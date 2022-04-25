@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: #eceff4;
+    cursor: pointer;
 }
 
 h1{
@@ -13,13 +19,11 @@ h1{
     font-weight: 800;
     margin-top: 1px;
     padding-top: 1px;
-    line-height: 8pt;
 }
 #number{
     height: 35px;
     width: 300px;
     background-color: #f3f3f3;
-    border-style: ridge;
     border-radius: 9px;
     font-size: 15px;
     padding-left: 10px;
@@ -29,7 +33,6 @@ h1{
     height: 35px;
     width: 300px;
     background-color: #f3f3f3;
-    border-style: ridge;
     border-radius: 9px;
     font-size: 15px;
     padding-left: 10px;
@@ -38,11 +41,11 @@ h1{
 #submit{
     background-color: #1c7ed6;
     color: #FBFBFB;
-    border-style: solid;
+    border: none;
     border-color: #1c7ed6;
     border-radius: 9px;
     height: 40px;
-    width: 330px;
+    width: 300px;
     font-size: 18px;
     font-weight: 700;
 }
@@ -51,7 +54,6 @@ h1{
     padding-top: 10px;
 }
 h2{
-    width: 100%;
     text-align: center;
     border-color: #339af0;
     line-height: 1px;
@@ -119,13 +121,36 @@ h2::after{
     margin-right: -50%;
 }
 section{
+    box-shadow: 10px 10px 10px #d8dee9;
     background-color: white;
-    position: relative;
-    padding: 30px;
-    border-radius: 20px;
-    margin-left: 450px;
-    margin-right: 450px;
-    box-shadow: 5px 10px 10px #d8dee9;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        margin: 0 auto;
+        font-size: x-small;
+        display: flex;
+        justify-content: flex-start;
+        display: inline-block;
+    }
+    h1 {
+        font-size: 40px;
+    }
+   #submit {
+       width: 250px;
+   } 
+   #number {
+       width: 250px;
+   }
+   #password {
+       width: 250px;
+   }
+   
 }
 
 
